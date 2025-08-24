@@ -106,9 +106,15 @@ body {
 
 /* Hero */
 .hero {
-  background: linear-gradient(135deg, var(--hero-start) 0%, var(--hero-end) 100%);
+  background-color: var(--color-secondary);
   padding: 4rem 0 3rem;
   text-align: center;
+}
+
+.hero-logo {
+  height: 100%;
+  width: 80%;
+  margin-bottom: 1rem;
 }
 
 .hero-title {
@@ -224,6 +230,12 @@ body {
 /* Desktop tweaks */
 @media (min-width: 768px) {
   .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-logo {
+    height: 100%;
+    width: 60%;
     font-size: 2.5rem;
   }
 
