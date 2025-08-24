@@ -1,0 +1,2 @@
+[build]
+publish = "."   # serve from repo root
